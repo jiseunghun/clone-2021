@@ -1,0 +1,59 @@
+.welcome-header {
+  margin: 100px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.welcome-header__title {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+.welcome-header__text {
+  width: 50%;
+  text-align: center;
+  line-height: 125%;
+}
+
+.login-text-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+.login-text-form input {
+  border: none;
+  width: 100%;
+  padding: 15px 0px;
+}
+.login-text-form input[type="text"] {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 25px;
+}
+/* .login-text-form input:not([type="submit"]){}으로 겹쳐진 효과를 취소할 수 있다. 
+  */
+.login-text-form input[type="submit"] {
+  margin-bottom: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.login-text-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 18px;
+}
+.login-text-form input:focus::placeholder {
+  transition: color 1ms ease-in;
+  color: rgba(0, 0, 0, 0);
+}
+.login-text-form input[type="text"]:focus {
+  border-color: var(--yellow);
+  transition: border-color 1ms ease-in;
+}
+.login-text-form input[type="submit"]:hover {
+  background-color: var(--yellow);
+}
+.login-text-form a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: 50px;
+}
