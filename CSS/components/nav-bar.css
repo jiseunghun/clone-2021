@@ -1,0 +1,43 @@
+.nav {
+  background-color: var(--gray);
+  padding: 15px 50px;
+  border-top: 1px solid rgba(189, 179, 179, 0.4);
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  box-sizing: border-box;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__btn {
+  position: relative;
+  color: black;
+}
+
+.nav__notification {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+.nav__reddot {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: relative;
+  left: 34px;
+  top: 3px;
+}

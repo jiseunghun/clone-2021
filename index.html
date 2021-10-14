@@ -28,15 +28,19 @@
         If you have a Kakao Account, log in with your email or phone number.
       </p>
     </header>
-    <form class="login-text-form">
+    <form action="friends.html" method="get" class="login-text-form">
       <input
+        name="username"
         class="login-text-form__id"
         type="text"
+        required
         placeholder="Email or phone number"
       />
       <input
+        name="password"
         class="login-text-form__password"
-        type="text"
+        required
+        type="password"
         placeholder="Password"
       />
       <input type="submit" value="Log In" />

@@ -1,0 +1,16 @@
+#friend-display-list {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+  background-color: var(--gray);
+  font-size: 15px;
+}
+#friend-display-list .fa-info-circle {
+  color: rgba(0, 0, 0, 0.3);
+  margin-right: 5px;
+}
+
+#friend-display-list .fa-chevron-right {
+  color: rgba(0, 0, 0, 0.3);
+  margin-left: 10px;
+}
