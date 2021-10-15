@@ -4,6 +4,7 @@
   padding: 10px 0px;
   background-color: var(--gray);
   font-size: 15px;
+  margin-bottom: 10px;
 }
 #friend-display-list .fa-info-circle {
   color: rgba(0, 0, 0, 0.3);
@@ -13,4 +14,31 @@
 #friend-display-list .fa-chevron-right {
   color: rgba(0, 0, 0, 0.3);
   margin-left: 10px;
+}
+
+.user-component__column__img__xl {
+  width: 80px;
+  height: 80px;
+  border-radius: 33px;
+}
+
+.user-component__column__img__xs {
+  width: 65px;
+  height: 65px;
+  border-radius: 28px;
+}
+.friends-screen__channel__notification span {
+  margin-right: 5px;
+}
+.friends-screen__channel__header {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.3);
+  margin-top: 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.user-component__column__text__title__xs {
+  font-weight: 400;
 }

@@ -1,0 +1,31 @@
+.user-component__column__chatnoti {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user-component__column__senttime {
+  color: rgba(0, 0, 0, 0.7);
+}
+.user-component__column__notification {
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  justify-content: center;
+  margin: 8px 0px 0px 15px;
+}
+.screen-header__comment {
+  position: relative;
+}
+.screen-header__comment-plus {
+  position: absolute;
+  font-size: 25px;
+  left: -3px;
+  top: -6px;
+  background-color: white;
+  line-height: 18px;
+}
