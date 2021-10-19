@@ -35,17 +35,3 @@
   display: flex;
   box-sizing: border-box;
 }
-.user-component__column__senttime {
-  color: rgba(0, 0, 0, 0.7);
-}
-.user-component__column__notification {
-  background-color: red;
-  color: white;
-  display: flex;
-  align-items: center;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  justify-content: center;
-  margin: 8px 0px 0px 15px;
-}
