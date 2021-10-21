@@ -1,5 +1,5 @@
 .nav {
-  background-color: var(--gray);
+  background-color: rgba(0, 0, 0, 0.1);
   padding: 15px 50px;
   border-top: 1px solid rgba(189, 179, 179, 0.4);
   position: fixed;
@@ -18,13 +18,6 @@
 }
 
 .nav__notification {
-  background-color: red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
   position: absolute;
   left: 15px;
   bottom: 15px;

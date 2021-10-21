@@ -8,14 +8,7 @@
   color: rgba(0, 0, 0, 0.7);
 }
 .user-component__column__notification {
-  background-color: red;
   color: white;
-  display: flex;
-  align-items: center;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  justify-content: center;
   margin: 8px 0px 0px 15px;
 }
 .screen-header__comment {
