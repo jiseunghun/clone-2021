@@ -1,0 +1,10 @@
+.alt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px 10px 20px;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+/* 컬럼에 margin-right : auto로도 간격이 분리될수 있음 */
