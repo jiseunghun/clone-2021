@@ -34,3 +34,22 @@
   left: 34px;
   top: 3px;
 }
+.nav i {
+  font-size: 25px;
+}
+
+@keyframes hoverEffect {
+  0% {
+    font-size: 25px;
+  }
+  50% {
+    font-size: 28px;
+  }
+  100% {
+    font-size: 25px;
+  }
+}
+
+.nav i:hover {
+  animation: hoverEffect 1s ease-in-out infinite;
+}

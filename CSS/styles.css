@@ -8,6 +8,7 @@
 @import "components/badge.css";
 @import url("components/icon-raw.css");
 @import url("components/alt-screen-header.css");
+@import url("components/no-moblie.css");
 
 @import "screens/login.css";
 @import "screens/friends.css";

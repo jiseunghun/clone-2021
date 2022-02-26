@@ -43,3 +43,25 @@
 .user-component__column__text__title__xs {
   font-weight: 400;
 }
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.splash_screen {
+  background-color: var(--yellow);
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  animation: hideSplashScreen 1s ease-in-out forwards;
+}
